@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #fff;
+    min-width: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 15px 15px rgba(0,0,0,0.05);
+}
+
+.logo {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.logo span {
+    color: #34e2ab;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    gap: 30px;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    text-decoration: none;
+    font-size: 1em;
+    color: #333;
+}
+
+header ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: #34e2ab;
+    transform: scaleX(0);
+    transition: transform 0.5s ease-in-out;
+    transform-origin: right;
+}
+
+header ul li a:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;   
+}
+
+header .search {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.searchBox {
+    position: absolute;
+    right: 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: #fff;
+    align-items: center;
+    padding: 0 30px;
+    transition: .5s ease-in-out;
+}
+
+.searchBox.active {
+    right: 0;
+}
+
+.searchBox input {
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 50px;
+    color: #333;
+    font-size: 1.25em;
+    background: #fff;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+
+
+.searchBtn {
+    position: relative;
+    left: 30px;
+    top: 2.5px;
+    transition: .5s ease-in-out;
+}
+
+.searchBtn.active {
+    left: 0;
+}
+
+.closeBtn {
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+    scale: 0;
+}
+
+.closeBtn.active {
+    opacity: 1;
+    visibility: visible;
+    transition: .5s;
+    scale: 1;
+}
+
+.menuToggle {
+    position: relative;
+    display: none;
+}
+
+.container {
+    padding: 20px 40px;
+}
+
+.table-sec {
+    height: 650px;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    min-width: 1000px;
+}
+
+thead th {
+    top: 0;
+    background-color: #34e2ab;
+    color: #333;
+    font-size: .9em;
+}
+
+th, td {
+    border-bottom: 1px solid #34e2ab;
+    padding: 10px 20px;
+    word-break: break-all;
+    text-align: center;
+}
+
+td img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 3px solid #34e2ab;
+}
+
+button {
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+}
+
+td button:nth-child(1) {
+    background-color: #f80000;
+}
+td button:nth-child(2) {
+    background-color: #009df8;
+}
+td button:nth-child(3) {
+    background-color: #34e2ab;
+}
+
+.content h1 {
+    font-size: 2em;
+    color: #34e2ab;
+    margin-bottom: 20px;
+}
+.content p{
+    text-align: justify;
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.content button {
+    background-color: #34e2ab;
+}
+
+.produtos {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.actions {
+    display: flex;
+    gap: 15px;
+}
+
+@media (max-width: 800px) {
+
+    .searchBtn {
+        left: 0;
+    }
+
+    .menuToggle {
+        position: absolute;
+        display: block;
+        font-size: 2em;
+        cursor: pointer;
+        transform: translateX(30px);
+        z-index: 10;
+    }
+    header .nav {
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+        left: 100%;
+    }
+
+    header.open .nav {
+        top: 80px;
+        opacity: 1;
+        visibility: visible;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        width: 100%;
+        height: calc(100vh - 80px);
+        padding: 40px;
+        border-top: 1px solid rgba(0,0,0,0.05);
+    }
+
+    header.open .nav li a {
+        font-size: 1.25em;
+    }
+
+    .hide {
+        display: none;
+    }
+}
+
