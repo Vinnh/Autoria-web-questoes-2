@@ -24,6 +24,21 @@
 <h3>Confira o código fonte <a href="https://github.com/Vinnh/Autoria-web-questoes-2/tree/main/Q03%20Tabela%20de%20or%C3%A7amento">clicando aqui<a/><h3/>
 <h3>Confira o resultado <a href="https://gerenciamento-costrutor.netlify.app">clicando aqui<a/><h3/>
 
+# ⚡ Questão 05: Tela de cadastro (responsiva) ⚡
+
+<div align="center">
+ <img src="https://user-images.githubusercontent.com/79426395/204109590-c7b7def9-f5d2-41e1-8bb5-8af06a529fbf.png" alt="imagem do site"> 
+</div>
+
+<div align="center">
+ <img src="https://user-images.githubusercontent.com/79426395/204109666-49e65fd1-7300-4248-8c27-2f3400946964.png" alt="imagem do site"> 
+</div>
+
+</br>
+
+<h3>Confira o código fonte <a href="https://github.com/Vinnh/Autoria-web-questoes-2/tree/main/Q05%20Tela%20de%20cadastro">clicando aqui<a/><h3/>
+<h3>Confira o resultado <a href="https://tela-cadastro-me-segue.netlify.app/">clicando aqui<a/><h3/>
+
 # ⚡ Questão 07: Agenda de contatos ⚡
 
 <div align="center">
