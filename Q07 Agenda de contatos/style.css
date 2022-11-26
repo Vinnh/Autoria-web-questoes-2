@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "poppins", sans-serif;
+}
+
+.navbar {
+    padding: 20px 130px;
+}
+
+.navbar a {
+    color: #fff;
+}
+
+.navbar a:hover {
+    color: #fff;
+}
+
+.container {
+    padding: 20px 30px;
+}
+
+.bg-purple {
+    background-color: #8330d0;
+}
+
+.btn-outline-success {
+    color: #fff;
+    border-color: #fff;
+    transition: .5s;
+}
+
+.btn-outline-success:hover {
+    background-color: #fff;
+    color: #8330d0;
+}
+
+#btn-salvar {
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background-color: #8330d0;
+    border: 0px;
+    transition: .5s;
+}
+
+.btn-primary:hover {
+    background-color: #9248d7;
+}
