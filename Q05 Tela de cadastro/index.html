@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me Segue</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+
+    <main>
+
+        <section class="login">
+
+            <figure class="container">
+                <img src="imagens/undraw_Off_road_re_leme.png" alt="">
+            </figure>
+
+            <div class="container">
+
+                <div class="form">
+
+                    <div class="text">
+                        <h1><span>me</span>segue</h1>
+                        <h2> Criar uma nova conta </h2>
+                        <p> É rápido e fácil. </p>
+                    </div>
+
+
+                    <form action="#" method="post">
+
+                        <fieldset id="dados-pessoais">
+                            <div class="username">
+                            <input type="text" nome="nome" id="nome" placeholder="Nome" required>
+                            <input type="text" nome="sobrenome" id="sobrenome" placeholder="Sobrenome" required>
+                            </div>
+
+                            <input type="email" nome="email" id="email" placeholder="Email" required>
+                            <input type="password" nome="senha" id="senha" placeholder="Senha" required>
+                        </fieldset>
+
+                        <fieldset id="genero">
+                            <legend> Gênero </legend>
+                            <div class="genero-bg">
+                                <input type="radio" id="feminino" name="genero" value="HTML">
+                                <label for="feminino"> Feminino </label>
+                            </div>
+                            <div class="genero-bg">
+                                <input type="radio" id="masculino" name="genero" value="CSS">
+                                <label for="masculino"> Masculino </label>
+                            </div>
+                            <div class="genero-bg">
+                                <input type="radio" id="personalizado" name="genero" value="JavaScript">
+                                <label for="personalizado"> Personalizado</label>
+                            </div>
+                        </fieldset>
+
+                        <fieldset id="nascimento">
+                            <legend> Data de Nascimento </legend>
+                            <input type="date" name="date" id="date">
+                        </fieldset>
+                        
+                        <div id="termos">
+                            <p> <br>Ao clicar em Cadastre-se, você concorda com os nossos <a href="#">Termos</a>,
+                                <a href="#">Política de Privacidade</a> e <a href="#">Política de Cookies.</a>
+                                Você poderá receber notificações por SMS e cancelar isso quando quiser.
+                            </p>
+                        </div>
+
+                        <div class="btn">
+                            <button type="submit"> Cadastre-se </button>
+                            <button type="submit"> Login </button>
+                        </div>
+                    </form>
+                </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
