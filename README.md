@@ -22,7 +22,7 @@
 </br>
 
 <h3>Confira o código fonte <a href="https://github.com/Vinnh/Autoria-web-questoes-2/tree/main/Q03%20Tabela%20de%20or%C3%A7amento">clicando aqui<a/><h3/>
-<h3>Confira o resultado <a href="gerenciamento-costrutor.netlify.app">clicando aqui<a/><h3/>
+<h3>Confira o resultado <a href="https://gerenciamento-costrutor.netlify.app">clicando aqui<a/><h3/>
 
 # ⚡ Questão 07: Agenda de contatos ⚡
 
@@ -33,5 +33,5 @@
 </br>
 
 <h3>Confira o código fonte <a href="https://github.com/Vinnh/Autoria-web-questoes-2/tree/main/Q07%20Agenda%20de%20contatos">clicando aqui<a/><h3/>
-<h3>Confira o resultado <a href="agenda-de-contatos.netlify.app">clicando aqui<a/><h3/>
+<h3>Confira o resultado <a href="https://agenda-de-contatos.netlify.app/">clicando aqui<a/><h3/>
 
